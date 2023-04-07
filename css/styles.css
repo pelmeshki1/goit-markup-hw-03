@@ -1,0 +1,332 @@
+:root {
+  /* Text colors */
+  --main-color: #2e2f42;
+  --light-txt-color: #ffffff;
+  --color: #4d5ae5;
+  --background: #f4f4fd;
+  --premium-color: #434455;
+}
+/**
+  |============================
+  | BASE STYLES
+  |============================
+*/
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #ffffff;
+}
+/* defoult class list */
+.list {
+  list-style: none;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+}
+/**
+  |============================
+  | ADDRESS
+  |============================
+*/
+.address-mail-phone {
+  font-style: normal;
+}
+.address-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/**
+  |============================
+  | LOGO HEADER
+  |============================
+*/
+.accent-header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color);
+}
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+.footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: #2e2f42;
+}
+/* logo footer */
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color);
+}
+.accent-footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: uppercase;
+}
+.footer-text {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-transform: uppercase;
+}
+/**
+  |============================
+  |NAVIGATION 
+  |============================
+*/
+.navigation {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navigation-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.navigation-item:hover {
+  color: #404bbf;
+}
+.navigation-item:focus {
+  color: #404bbf;
+}
+.navigation-list {
+  list-style: none;
+}
+
+/**
+  |============================
+  | HERO (SECTION 1)
+  |============================
+*/
+.hero {
+  background-color: #2e2f42;
+}
+.section-hero {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+/**
+  |============================
+  | COMPANY ADVANTAGES (SECTION 2)
+  |============================
+*/
+.advanteges-list {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/**
+  |============================
+  | WHAT ARE WE DOING (SECTION 3)
+  |============================
+*/
+.header-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/**
+  |============================
+  | TEAM MEMBERS (SECTION 4)
+  |============================
+*/
+.our-team-list {
+  background-color: #ffffff;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.section-team-header {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.name-person {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.worker {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+/**
+  |============================
+  | PORTFOLIO
+  |============================
+*/
+/* Portfolio exemple work */
+.text-portfolio {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.text-main-work {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--premium-color);
+}
+.portfolio-list {
+  list-style: none;
+}
+/**
+  |============================
+  | BUTTONS FILTER
+  |============================
+*/
+.filter-all {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color);
+  background-color: var(--background);
+  cursor: pointer;
+}
+.filter-all:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.filter-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-btn {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #f4f4fd;
+}
+
+.portfolio-btn-general {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-btn-general:hover,
+.portfolio-btn-general:focus {
+  color: #404bbf;
+}
