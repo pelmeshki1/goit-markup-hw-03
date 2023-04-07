@@ -6,6 +6,40 @@
   --background: #f4f4fd;
   --premium-color: #434455;
 }
+
+/**
+  |============================
+  | RESET
+  |============================
+*/
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+/* reset class */
+.list {
+  list-style: none;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+}
 /**
   |============================
   | BASE STYLES
@@ -17,16 +51,22 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* defoult class list */
-.list {
-  list-style: none;
+
+/**
+  |============================
+  | CONTAINER
+  |============================
+*/
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
-.link {
-  list-style: none;
-  text-decoration: none;
-  font-style: normal;
-}
 /**
   |============================
   | ADDRESS
