@@ -134,6 +134,10 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+.accent-footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* lOGO HEADER */
 .accent-header-logo {
   font-family: Raleway, sans-serif;
