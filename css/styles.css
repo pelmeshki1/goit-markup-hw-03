@@ -501,7 +501,7 @@ body {
 }
 .filter-all {
   padding: 12px 24px;
-  border: 1px solid var(--portfolio-filter-btn);
+  border: 1px solid #e7e9fc;
   border: 1px solid transparent;
   border-radius: 4px;
 }
