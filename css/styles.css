@@ -485,3 +485,14 @@ body {
 .portfolio-btn-general:focus {
   color: #404bbf;
 }
+/* Portfolio blocks */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.filter-all-main {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
