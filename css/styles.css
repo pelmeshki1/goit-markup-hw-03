@@ -127,7 +127,13 @@ body {
 .section-hero {
   max-width: 496px;
 }
-
+.footer {
+  padding: 100px 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* lOGO HEADER */
 .accent-header-logo {
   font-family: Raleway, sans-serif;
