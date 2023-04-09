@@ -453,11 +453,13 @@ body {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  border: 1px solid #e7e9fc;
 }
 .filter-all:focus {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-btn {
   font-family: Roboto, sans-serif;
@@ -486,8 +488,6 @@ body {
 }
 .filter-all {
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border: 1px solid transparent;
   border-radius: 4px;
 }
 .developments-list {
