@@ -57,6 +57,7 @@ body {
   | CONTAINER
   |============================
 */
+/* SETTINGS FOR BLOCKS */
 .container {
   width: 1158px;
   margin-left: auto;
@@ -66,12 +67,7 @@ body {
   outline: 2px solid red;
   outline-offset: -2px;
 }
-/**
-  |============================
-  | HEADER
-  |============================
-*/
-/* SETTINGS FOR BLOCKS */
+/* blocks section header */
 .page-header-container {
   display: flex;
   align-items: center;
@@ -114,6 +110,7 @@ body {
   padding-top: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
+/* blocks sections 1 */
 .btn {
   display: block;
   min-width: 169px;
@@ -127,17 +124,35 @@ body {
 .section-hero {
   max-width: 496px;
 }
-.footer {
-  padding: 100px 0;
+/* blocks section 2 */
+.advanteges {
+  padding: 120px 0;
 }
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+.advanteges-main-list {
+  display: flex;
+  gap: 24px;
 }
-.accent-footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+.advanteges-item {
+  width: calc((100% - 72px) / 4);
 }
+.advanteges-list {
+  margin-bottom: 8px;
+}
+/* blocks section 3 */
+.what-are-we-doing {
+  padding-bottom: 120px;
+}
+.header-text {
+  margin-bottom: 72px;
+}
+.we-doing-list {
+  display: flex;
+  gap: 24px;
+}
+.we-doing-list-item {
+  width: calc((100% - 48px) / 3);
+}
+/* blocks section 4 */
 .section-team {
   padding: 120px 0;
 }
@@ -159,6 +174,27 @@ body {
 .worker {
   text-align: center;
 }
+.our-team-list {
+  width: calc((100% - 72px) / 4);
+}
+/* blocks section footer */
+.footer {
+  padding: 100px 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.accent-footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
 /* lOGO HEADER */
 .accent-header-logo {
   font-family: Raleway, sans-serif;
