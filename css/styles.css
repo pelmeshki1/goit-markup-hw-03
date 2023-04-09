@@ -1,11 +1,11 @@
 :root {
   /* Text colors */
-  --main-color: #2e2f42;
+  --navi-blue: #2e2f42;
   --light-txt-color: #ffffff;
-  --color: #4d5ae5;
+  --iris: #4d5ae5;
   --background: #f4f4fd;
   --premium-color: #434455;
-  --portfolio-filter-btn: #e7e9fc;
+  --cornflower: #e7e9fc;
 }
 
 /**
@@ -213,7 +213,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--color);
+  color: var(--iris);
 }
 /* NAVIGATION */
 .navigation {
@@ -281,7 +281,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color);
+  color: var(--iris);
 }
 .accent-footer-logo {
   font-family: Raleway, sans-serif;
@@ -421,7 +421,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--navi-blue);
 }
 .text-main-work {
   font-family: Roboto;
@@ -445,7 +445,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--color);
+  color: var(--iris);
   background-color: var(--background);
   cursor: pointer;
 }
