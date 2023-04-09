@@ -473,21 +473,6 @@ body {
 .portfolio-btn:focus {
   color: #f4f4fd;
 }
-
-.portfolio-btn-general {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 4%;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-}
-.portfolio-btn-general:hover,
-.portfolio-btn-general:focus {
-  color: #404bbf;
-}
 /* Portfolio blocks */
 .portfolio {
   padding-top: 96px;
