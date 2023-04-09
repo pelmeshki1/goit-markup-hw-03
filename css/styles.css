@@ -138,6 +138,27 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+.section-team {
+  padding: 120px 0;
+}
+.section-team-header {
+  margin-bottom: 72px;
+}
+.members-list {
+  display: flex;
+  gap: 24px;
+}
+.container-team {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+.name-person {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.worker {
+  text-align: center;
+}
 /* lOGO HEADER */
 .accent-header-logo {
   font-family: Raleway, sans-serif;
