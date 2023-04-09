@@ -103,6 +103,20 @@ body {
 .header {
   padding-top: 24px;
 }
+.btn {
+  display: block;
+  min-width: 169px;
+  min-height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.hero {
+  padding: 188px 0;
+}
+.section-hero {
+  max-width: 496px;
+}
+
 /* lOGO HEADER */
 .accent-header-logo {
   font-family: Raleway, sans-serif;
