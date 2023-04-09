@@ -5,7 +5,7 @@
   --iris: #4d5ae5;
   --background: #f4f4fd;
   --premium-color: #434455;
-  --cornflower: #e7e9fc;
+  --color-btn: #e7e9fc;
 }
 
 /**
@@ -483,6 +483,7 @@ body {
 .filter-all {
   padding: 12px 24px;
   border-radius: 4px;
+  border: 1px solid #e7e9fc;
 }
 .developments-list {
   display: flex;
@@ -495,7 +496,7 @@ body {
 }
 .digital {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--color-btn);
   border-top: none;
 }
 .text-portfolio {
