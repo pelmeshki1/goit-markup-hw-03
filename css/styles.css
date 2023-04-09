@@ -469,10 +469,6 @@ body {
   background-color: #e7e9fc;
   cursor: pointer;
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  color: #f4f4fd;
-}
 /* Portfolio blocks */
 .portfolio {
   padding-top: 96px;
