@@ -453,13 +453,11 @@ body {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
-  border: 1px solid #e7e9fc;
 }
 .filter-all:focus {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
-  border: 1px solid #e7e9fc;
 }
 .portfolio-btn {
   font-family: Roboto, sans-serif;
